@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_deadline:
                 Intent intentDeadline = new Intent(MainActivity.this, DeadlineActivity.class);
                 startActivity(intentDeadline);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

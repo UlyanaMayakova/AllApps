@@ -83,7 +83,7 @@ public class AdressActivity extends AppCompatActivity {
                         android.R.layout.simple_spinner_item);
                 break;
         }
-        if(adapterCities != null) {
+        if (adapterCities != null) {
             adapterCities.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             cities.setAdapter(adapterCities);
         }
@@ -91,7 +91,7 @@ public class AdressActivity extends AppCompatActivity {
 
     private void spinnerHouses() {
         Integer[] houseNumbers = new Integer[50];
-        for(int i = 1; i < 51; i++) {
+        for (int i = 1; i < 51; i++) {
             houseNumbers[i - 1] = i;
         }
 
