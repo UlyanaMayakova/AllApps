@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AllApps</string>
+    <string name="adress">Адрес</string>
+    <string name="notebook">Записная книжка</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="edit_text">Напишите что-нибудь</string>
+    <string name="country">Выберите страну</string>
+    <string name="city">Выберите город</string>
+    <string name="house">Выберите номер дома</string>
+    <string name="ok_btn">ОК</string>
+    <string name="start_date">Дата начала задачи</string>
+    <string name="end_date">Дата окончания задачи</string>
+    <string name="deadline">Сроки задачи</string>
+
+    <string-array name="Countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Беларусь</item>
+    </string-array>
+
+    <string-array name="RussianCities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+
+    <string-array name="UkrainianCities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+
+    <string-array name="BelorussianCities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+</resources>
